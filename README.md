@@ -233,43 +233,6 @@ Advantages:
 | XGBoost | 98.67% | 87.16% | 83.17% | 85.12% | 98.75% |
 
 ---
-
-# Model Comparison
-
-Insert comparison plots here.
-
-```
-images/
-
-accuracy.png
-
-precision.png
-
-recall.png
-
-f1.png
-
-roc_auc.png
-
-comparison_chart.png
-```
-
----
-
-# Training Curves
-
-Insert:
-
-- Training Loss
-- Validation Loss
-- Early Stopping Plot
-
----
-
-# User Interface
-
----
-
 ## Dashboard
 
 Displays overall molecular analysis summary.
@@ -336,7 +299,7 @@ Displays:
 **Screenshot**
 
 ```
-![](Results/similar_molecules to target.png)
+Results/similar_molecules to target.png
 ```
 
 ---
