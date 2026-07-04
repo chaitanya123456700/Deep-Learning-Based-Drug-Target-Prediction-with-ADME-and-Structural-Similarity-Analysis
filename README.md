@@ -43,36 +43,9 @@ The platform accepts a **SMILES representation** of a molecule and performs:
 # System Architecture
 
 <p align="center">
-<img src="images/system_architecture.png" width="900">
+<img src="pipeline/Architecture.png" width="900">
 </p>
 
-The platform follows a modular architecture consisting of:
-
-```
-SMILES Input
-      │
-      ▼
-Fingerprint Generation
-(Morgan Fingerprints)
-      │
-      ▼
-Deep Learning Predictor
-      │
-      ▼
-Predicted Targets
-      │
- ┌────┼─────────────────────────────────────┐
- ▼    ▼        ▼       ▼       ▼       ▼
-ADME Toxicity Similarity Bioactivity Literature
- │
- ▼
-Synthetic Accessibility
- │
- ▼
-AI Interpretation
-```
-
----
 
 # Dataset Construction
 
