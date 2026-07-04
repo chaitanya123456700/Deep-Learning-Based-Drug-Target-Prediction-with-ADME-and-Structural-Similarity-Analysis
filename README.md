@@ -277,7 +277,7 @@ Displays overall molecular analysis summary.
 **Screenshot**
 
 ```
-images/dashboard.png
+Results/interface.png
 ```
 
 ---
@@ -295,7 +295,7 @@ Displays:
 **Screenshot**
 
 ```
-images/prediction.png
+Results/target_predictor.png
 ```
 
 ---
@@ -316,7 +316,7 @@ Evaluates Lipinski's Rule of Five.
 **Screenshot**
 
 ```
-images/adme.png
+Results/drug Likeness and adme.png
 ```
 
 ---
@@ -336,7 +336,7 @@ Displays:
 **Screenshot**
 
 ```
-images/similarity.png
+Results/similar_molecules to target.png
 ```
 
 ---
@@ -353,7 +353,7 @@ Displays:
 **Screenshot**
 
 ```
-images/toxicity.png
+Results/Toxicity.png
 ```
 
 ---
@@ -378,7 +378,7 @@ Displays:
 **Screenshot**
 
 ```
-images/3dviewer.png
+Results/3d_viewer of target.png
 ```
 
 ---
@@ -397,7 +397,7 @@ Displays:
 **Screenshot**
 
 ```
-images/bioactivity.png
+Results/bioactivity.png
 ```
 
 ---
@@ -416,7 +416,7 @@ Displays:
 **Screenshot**
 
 ```
-images/literature.png
+Results/literatures.png
 ```
 
 ---
@@ -440,7 +440,7 @@ Factors considered:
 **Screenshot**
 
 ```
-images/sa.png
+Results/synthetic access.png
 ```
 
 ---
@@ -460,7 +460,7 @@ Includes:
 **Screenshot**
 
 ```
-images/interpreter.png
+Results/Dashboard.png
 ```
 
 ---
@@ -469,57 +469,29 @@ images/interpreter.png
 
 ```
 AI-Drug-Platform/
-
 ├── app.py
-
 ├── backend/
-
 │   ├── predictor.py
-
 │   ├── model.py
-
 │   ├── train_model.py
-
 │   ├── fingerprint.py
-
 │   ├── similarity.py
-
 │   ├── toxicity.py
-
 │   ├── bioactivity.py
-
 │   ├── synthetic_access.py
-
 │   ├── adme.py
-
 │   └── ...
-
 ├── ui/
-
 │   ├── dashboard.py
-
 │   ├── prediction_page.py
-
 │   ├── toxicity_page.py
-
 │   ├── similarity_page.py
-
 │   ├── bioactivity_page.py
-
 │   ├── literature_page.py
-
 │   ├── synthetic_page.py
-
 │   ├── viewer3d_page.py
-
 │   └── interpreter_page.py
-
-├── models/
-
 ├── images/
-
-├── requirements.txt
-
 └── README.md
 ```
 
