@@ -336,7 +336,7 @@ Displays:
 **Screenshot**
 
 ```
-Results/similar_molecules to target.png
+![](Results/similar_molecules to target.png)
 ```
 
 ---
